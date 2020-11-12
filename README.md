@@ -10,7 +10,7 @@
 
 - **[Alimourana Balde](https://github.com/alimourana)**
 
-## How to know and to manipulate the status of all the relevant entities of the operational database
+## How to query the data of all the relevant entities of the operational database
 
 
 1- **Retrieving the address of the building, the beginning and the end of the intervention for a specific intervention.**	
