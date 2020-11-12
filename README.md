@@ -6,7 +6,7 @@
 
 - **[Jean-Francois Taillefer](https://github.com/ricoloic)**
 
-- **[Louis-Felix Beland](https://github.com/ricoloic)**
+- **[Louis-Felix Beland](https://github.com/mrcbilou)**
 
 - **[Alimourana Balde](https://github.com/alimourana)**
 
