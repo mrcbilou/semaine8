@@ -36,4 +36,5 @@
 
  - You can change the id field in the queries above to get data for a specified id
  - Based on the databases columns you can add fields in the query to get more detailed data
+ - All these queries are "POST" Requests
  
