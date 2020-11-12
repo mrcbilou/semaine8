@@ -2,13 +2,14 @@ default: &default
   adapter: mysql2
   encoding: utf8
   pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
-  username: root
-  password: Louis123~
+  host: codeboxx.cq6zrczewpu2.us-east-1.rds.amazonaws.com
+  username: codeboxx
+  password: Codeboxx1!
   socket: /var/run/mysqld/mysqld.sock
 
 development:
   <<: *default
-  database: app_development
+  database: LoicRico
 
 test:
   <<: *default
