@@ -33,43 +33,10 @@ gem 'actionpack-cloudflare'
 gem 'graphql'
 
 
-# USER RELATED
-
-
-# FOR NOTIFICATIONS
-gem 'toastr-rails', '~> 1.0'
-gem 'jquery-rails'
-# ADMIN SECTION
-gem 'rails_admin', '~> 2.0'
-gem 'rails_admin_rollincode', '~> 1.0'
-gem 'rails_admin_material'
-gem 'chartkick', '~> 3.4', '>= 3.4.2'
-gem 'groupdate', '~> 5.2', '>= 5.2.1'
-# PERMISSIONS
-gem 'cancancan', '~> 3.1'
-# FAKE DATA
-gem 'addressy', '~> 0.0.2'
-gem 'faker', '~> 2.14'
-
-
-
-gem 'gmaps4rails'
-gem "geocoder"
-
 # Suppressing RangeError during type casting
 gem 'activerecord-suppress_range_error', '~> 0.1.1'
 
 gem 'database_cleaner-active_record'
-
-gem 'client_side_validations'
-gem 'client_side_validations-simple_form'
-
-gem 'carrierwave', '~> 2.0'
-
-gem 'dropbox-sdk', '~> 1.6', '>= 1.6.5'
-
-# Use ActiveStorage variant
-# gem 'mini_magick', '~> 4.8'
 
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.1.0'
@@ -116,18 +83,4 @@ group :production do
   # you probably don't want this for :test or :development
 end
 
-gem 'google_maps_service'
-gem "figaro"
-
-# permits the use of the Twilio API
-gem "twilio-ruby"
-
-gem "slack-notifier"
-
-gem "zendesk_api"
-
-gem "sendgrid-ruby"
-
-gem "recaptcha", require: "recaptcha/rails" 
-gem 'graphiql-rails', group: :development
 gem 'graphql-preload'
