@@ -16,6 +16,4 @@ test:
 
 production:
   <<: *default
-  database: dwh_production
-  username: dwh
-  password: <%= ENV['MYAPP_DATABASE_PASSWORD'] %>
+  database: LoicRico_dwh
