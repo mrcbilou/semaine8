@@ -9,11 +9,29 @@ default: &default
 development:
   <<: *default
   database: LoicRico_dwh
+  adapter: postgresql
+  encoding: unicode
+  username: codeboxx
+  password: Codeboxx1!
+  host: codeboxx-postgresql.cq6zrczewpu2.us-east-1.rds.amazonaws.com
+  pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
 
 test:
   <<: *default
-  database: dwh_test
+  database: LoicRico_dwh
+  adapter: postgresql
+  encoding: unicode
+  username: codeboxx
+  password: Codeboxx1!
+  host: codeboxx-postgresql.cq6zrczewpu2.us-east-1.rds.amazonaws.com
+  pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
 
 production:
   <<: *default
   database: LoicRico_dwh
+  adapter: postgresql
+  encoding: unicode
+  username: codeboxx
+  password: Codeboxx1!
+  host: codeboxx-postgresql.cq6zrczewpu2.us-east-1.rds.amazonaws.com
+  pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
