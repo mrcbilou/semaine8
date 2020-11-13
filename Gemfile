@@ -1,6 +1,7 @@
 source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
+gem 'listen', '~> 3.1.5'
 
 ruby '2.6.5'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
@@ -33,7 +34,6 @@ gem 'actionpack-cloudflare'
 
 gem 'graphql'
 
-
 # Suppressing RangeError during type casting
 gem 'activerecord-suppress_range_error', '~> 0.1.1'
 
@@ -48,8 +48,6 @@ group :development, :test do
 end
 
 group :development do
-  gem 'listen'
-
   # Provides a better error page for Rails and other Rack apps. Includes source code inspection, a live REPL and local/instance variable inspection for all stack frames.
   gem 'better_errors', '~> 2.8', '>= 2.8.3'
 
