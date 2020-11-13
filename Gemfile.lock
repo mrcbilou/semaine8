@@ -267,7 +267,6 @@ DEPENDENCIES
   graphql
   graphql-preload
   jbuilder (~> 2.5)
-  listen
   mysql2 (>= 0.4.4, < 0.6.0)
   pg (~> 0.21.0)
   puma (~> 3.11)
