@@ -48,6 +48,8 @@ group :development, :test do
 end
 
 group :development do
+  gem 'listen'
+
   # Provides a better error page for Rails and other Rack apps. Includes source code inspection, a live REPL and local/instance variable inspection for all stack frames.
   gem 'better_errors', '~> 2.8', '>= 2.8.3'
 
