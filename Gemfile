@@ -1,7 +1,6 @@
 source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
-gem 'listen', '~> 3.1.5'
 
 ruby '2.6.5'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
@@ -33,6 +32,7 @@ gem 'sprockets-rails', :require => 'sprockets/railtie'
 gem 'actionpack-cloudflare'
 
 gem 'graphql'
+gem 'listen', '~> 3.1.5'
 
 # Suppressing RangeError during type casting
 gem 'activerecord-suppress_range_error', '~> 0.1.1'
